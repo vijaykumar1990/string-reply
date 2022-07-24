@@ -11,5 +11,5 @@ Set of rest apis for string manipulation
 # How to run the application normally.
 1. Download the code and run gradlew build and then gradlew bootRun
 # How to run the application in docker.
-1. Run gradlew docker step. This will generate the docker image.
+1. Run "gradlew docker" step. This will generate the docker image.
 2. Run "docker run -p 8080:8080 -it stringreply". This will start the container and listen for input in port 8080. 
