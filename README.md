@@ -43,7 +43,7 @@ Set of rest apis for string manipulation
 # What could have been done better/improved.
 1. Exception handling could be better improved with Controller advice for centralised error logging.
 2. More Data validations could be added.
-3. After dockerisation, could have done pipeline automation using github actions or bitbucket pipelines and eployed in Google cloud run or GKE.
+3. After dockerisation, could have done pipeline automation using github actions or bitbucket pipelines and deployed in Google cloud run or GKE.
 # What has been done as a benificial component
 1. Dockerized the application to run as container by adding a gradle build step called docker and writing docker instructions in docker file.
 # How to run the application normally.
