@@ -1,7 +1,7 @@
 # string-reply service.
 Set of rest apis for string manipulation
 # What has been done.
-1. Implemented a new service interface for endpoint /v2/reply/{message}. This service is a get method implementation which generates the output based on the requirements provided below.
+1. Implemented a new service interface for endpoint /v2/reply/{message}. This service is a get method implementation which generates the output based on the requirements provided below. Also few unit test cases have been written to cover the below requirements.
 
       The input string will now be comprised of two components, a rule and a string, separated by a dash (-).
       Rules **always** contain two numbers. Each number represents a string operation.
